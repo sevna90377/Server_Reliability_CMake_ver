@@ -1,0 +1,14 @@
+//
+// Created by 1310i on 30.05.2024.
+//
+
+#ifndef SERVER_RELIABILITY_SIM_SERVER_MANAGER_H
+#define SERVER_RELIABILITY_SIM_SERVER_MANAGER_H
+
+
+class server_manager {
+
+};
+
+
+#endif //SERVER_RELIABILITY_SIM_SERVER_MANAGER_H

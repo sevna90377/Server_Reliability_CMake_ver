@@ -1,0 +1,154 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/RNG",
+					"jsonFile" : "directory-src.RNG-Debug-a6e423c40fe9bf0cc85e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/RNG",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/player",
+					"jsonFile" : "directory-src.player-Debug-d187feb20a711df4835a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/player",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/server",
+					"jsonFile" : "directory-src.server-Debug-0060d0c68a017a1e8304.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/server",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Server_Reliability_Sim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Player::@2d5ae9c105164480b127",
+					"jsonFile" : "target-Player-Debug-6755a03015cd67022e71.json",
+					"name" : "Player",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "RNG::@2cc8ef16563bee1a8965",
+					"jsonFile" : "target-RNG-Debug-92b5b0c1ee2fff6105ad.json",
+					"name" : "RNG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Server::@2804e40980a64c7d7ad1",
+					"jsonFile" : "target-Server-Debug-736a29f6ad9a90d2080a.json",
+					"name" : "Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Server_Reliability_Sim::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Server_Reliability_Sim-Debug-5b3d379554d69a3ffa4f.json",
+					"name" : "Server_Reliability_Sim",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/1310i/CLionProjects/Server_Reliability_Sim/cmake-build-debug",
+		"source" : "C:/Users/1310i/CLionProjects/Server_Reliability_Sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
